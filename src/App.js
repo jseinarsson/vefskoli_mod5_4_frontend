@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { getEntries } from './actions/entries';
+import Entries from './components/Entries/Entries';
+import Form from './components/Form/Form';
+
+const App = () => {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getEntries());
+    }, [dispatch]);
+
+    return (
+        <div className="screen">
+            <Form />
+            <Entries />
+        </div>
+    );
 }
 
 export default App;
