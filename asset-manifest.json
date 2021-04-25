@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vefskoli_mod5_4_frontend/static/css/main.47686a9a.chunk.css",
+    "main.js": "/vefskoli_mod5_4_frontend/static/js/main.991273f9.chunk.js",
+    "main.js.map": "/vefskoli_mod5_4_frontend/static/js/main.991273f9.chunk.js.map",
+    "runtime-main.js": "/vefskoli_mod5_4_frontend/static/js/runtime-main.20e9ba07.js",
+    "runtime-main.js.map": "/vefskoli_mod5_4_frontend/static/js/runtime-main.20e9ba07.js.map",
+    "static/js/2.a2294c1e.chunk.js": "/vefskoli_mod5_4_frontend/static/js/2.a2294c1e.chunk.js",
+    "static/js/2.a2294c1e.chunk.js.map": "/vefskoli_mod5_4_frontend/static/js/2.a2294c1e.chunk.js.map",
+    "index.html": "/vefskoli_mod5_4_frontend/index.html",
+    "static/css/main.47686a9a.chunk.css.map": "/vefskoli_mod5_4_frontend/static/css/main.47686a9a.chunk.css.map",
+    "static/js/2.a2294c1e.chunk.js.LICENSE.txt": "/vefskoli_mod5_4_frontend/static/js/2.a2294c1e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20e9ba07.js",
+    "static/js/2.a2294c1e.chunk.js",
+    "static/css/main.47686a9a.chunk.css",
+    "static/js/main.991273f9.chunk.js"
+  ]
+}
